@@ -9,7 +9,8 @@ PRODUCT_PACKAGES += \
     Basic \
     PhaseBeam \
     ThemePicker \
-    WallpaperPicker2
+    WallpaperPicker2 \
+    SoftAPManager
 
 # su
 PRODUCT_PACKAGES += \
