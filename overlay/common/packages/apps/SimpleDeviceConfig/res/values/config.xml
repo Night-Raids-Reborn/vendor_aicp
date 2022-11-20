@@ -27,7 +27,7 @@
         <item>privacy/permissions_hub_enabled=true</item>
 
         <item>runtime_native_boot/iorap_perfetto_enable=true</item>
-        
+
         <!-- ART heap compaction for cached apps -->
         <item>activity_manager/use_compaction=true</item>
 
@@ -85,8 +85,10 @@
         <item>device_personalization_services/Fedex__enable_fedex=false</item>
         <item>device_personalization_services/Logging__enable_aiai_clearcut_logging=false</item>
         <item>device_personalization_services/NotificationAssistant__enable_service=false</item>
-        <item>device_personalization_services/Overview__enable_overview=false</item>
         <item>device_personalization_services/VisualCortex__enable=false</item>
+
+        <!-- Select text on recents -->
+        <item>device_personalization_services/Overview__enable_overview=true</item>
     </string-array>
 
 </resources>
