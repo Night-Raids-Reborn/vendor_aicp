@@ -139,3 +139,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aicp/prebuilt/common/lib/libsketchology_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsketchology_native.so \
     vendor/aicp/prebuilt/common/lib64/libsketchology_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsketchology_native.so
+    
+# Include Lawnchair
+ifeq ($(USE_LAWNCHAIR),true)
+$(call inherit-product, vendor/lawnchair/lawnchair.mk)
+endif
