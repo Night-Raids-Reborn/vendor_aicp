@@ -80,3 +80,4 @@ if __name__ == "__main__":
             if redirect[0] != "127.0.0.1" and redirect[0] != "0.0.0.0":
                 continue
             fout.write("127.0.0.1 {}\n".format(redirect[1]))
+

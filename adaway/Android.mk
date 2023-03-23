@@ -16,3 +16,4 @@ include $(BUILD_SYSTEM)/base_rules.mk
 
 $(LOCAL_BUILT_MODULE): $(TARGET_GENERATED_HOSTS_BLOCKER)
 	@cp $< $@
+
